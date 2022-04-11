@@ -15,10 +15,13 @@ public class App {
         output("-----------------");
 
         Cat cat1 = new Cat("Eminem","MomsSpaghetti", 40);
+        
+        
+        cat1.setFurColor("grey");
 
-        output("Name: " + cat1.name);
-        output("Fellfarbe: " + cat1.furColor);
-        output("Alter " + cat1.age);
+        output("Name: " + cat1.getName());
+        output("Fellfarbe: " + cat1.getFurColor());
+        output("Alter " + cat1.getAge());
 
         //output("Blick von aussen: " + cat1);
         //output("Blick von innen: " + cat1.tellYourAddress());
